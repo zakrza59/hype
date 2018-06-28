@@ -14,9 +14,7 @@ class App extends Component {
   componentWillMount() {
     window.addEventListener('resize', this.handleWindowSizeChange);
   }
-  
-  // make sure to remove the listener
-  // when the component is not mounted anymore
+
   componentWillUnmount() {
     window.removeEventListener('resize', this.handleWindowSizeChange);
   }
@@ -34,11 +32,13 @@ class App extends Component {
     return (
       <div className="App">
         <MobileContainer/>
+        <MobileContainer/>
       </div>
     );  
   } else {
       return (
         <div className="App">
+          <DesktopContainer/>
           <DesktopContainer/> 
         </div>
       );
