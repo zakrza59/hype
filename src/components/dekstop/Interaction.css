@@ -1,0 +1,49 @@
+.Interaction {
+  width: 109px;
+  min-width: 79px;
+  flex: 0 1 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+
+}
+
+.Content-button-d button {
+  margin-bottom: 14px;
+  margin-top: 24px;
+  height: 34px;
+  width: 75px;
+  border-style: none;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #d22d4f 0%, #F86358 100%);
+  box-shadow: 0 2px 4px 0 #fa5b1e57;
+  font-family: Poppins;
+  color: #FFFFFF;
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 1px #5f5f5f4d;
+  transition: 0.3s;
+}
+
+.Content-button-d button:hover {
+  margin-top: 22px;
+  margin-bottom: 12px;
+  height: 38px;
+  width: 85px;
+  box-shadow: 0 4px 7px 0 rgba(60,23,10,0.34);
+}
+
+.Content-button-d button:focus {
+  outline: none;
+}
+
+.Icons {
+  display: flex;
+  justify-content: center;
+}
+
+.Oko-d {
+  margin-right: 9px;
+}

@@ -1,0 +1,5 @@
+.Container-right {
+  width: 340px;
+  display: flex;
+  flex-flow: column nowrap;
+}

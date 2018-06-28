@@ -1,0 +1,17 @@
+.Percentage-d {
+  width: 103.7px;
+  flex: 0 1 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Last {
+  width: 104.7px;
+}
+
+.Last .Border {
+  border-right: 1px solid #D8D8D8;
+  z-index: 1;
+}

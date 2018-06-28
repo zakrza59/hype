@@ -1,0 +1,28 @@
+.Bottom-content {
+  height: 105px;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 29px;
+  margin-bottom: 0;
+}
+
+.Percentage::after {
+  content: "";
+  position: absolute;
+  width: 108px;
+  height: 75px;
+  border-right: 1px solid #D8D8D8;
+}
+
+.Percentage:last-child::after {
+  content: none;
+}
+
+.Percentage:last-child {
+  width: 105px;
+}

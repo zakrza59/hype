@@ -1,0 +1,15 @@
+.Coin-value {
+  width: 126px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Coin-value::after {
+  content: "";
+  position: absolute;
+  width: 127px;
+  height: 75px;
+  border-right: 1px solid #D8D8D8;
+}

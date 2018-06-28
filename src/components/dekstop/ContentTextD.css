@@ -1,0 +1,45 @@
+.Content-text-d {
+  flex: 0 1 auto;
+  width: 298px;
+  padding-left: 23px;
+  box-sizing: border-box;
+}
+
+.Coin-title-d {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.Coin-text-d {
+  font-size: 10px;
+  line-height: 16px;
+  display: flex;
+  margin-top: 6px;
+  margin-bottom: 0;
+  position: relative;
+  right: 1px;
+}
+
+.Coin-text-d:last-child {
+  margin-top: 0;
+  margin-left: 7px;
+  margin-bottom: 17px;
+}
+
+.Circle {
+  background: #FFBE33;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  position: relative;
+  top: 4px;
+  right: 7px;
+}
+
+@media (min-width: 865px) {
+  .Coin-title-d {
+    margin-top: 18px;
+  }
+}

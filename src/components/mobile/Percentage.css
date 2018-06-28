@@ -1,0 +1,7 @@
+.Percentage {
+  width: 107px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}

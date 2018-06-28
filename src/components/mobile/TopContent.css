@@ -1,0 +1,14 @@
+.Top-content {
+  height: 140px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: stretch;
+}
+
+.Top-content::after {
+  content: "";
+  position: relative;
+  left: 15px;
+  width: 310px;
+  border-bottom: 1px solid #D8D8D8;
+}

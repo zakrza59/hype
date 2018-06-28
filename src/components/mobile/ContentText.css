@@ -1,0 +1,26 @@
+.Content-text {
+  margin-left: 19px;
+}
+
+.Coin-title {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 13px;
+  margin-bottom: 0;
+}
+
+.Coin-text {
+  font-size: 10px;
+  line-height: 16px;
+  display: flex;
+  margin-top: 7px;
+  margin-bottom: 0;
+  position: relative;
+  right: 1px;
+}
+
+.Oko {
+  position: relative;
+  bottom: 41px;
+  left: 165.7px;
+}
